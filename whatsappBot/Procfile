@@ -1,0 +1,1 @@
+web: python whatsappBot.py 0.0.0.0:5000
