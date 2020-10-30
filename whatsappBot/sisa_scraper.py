@@ -5,7 +5,7 @@ from tabulate import _table_formats, tabulate
 
 def grades():
     session = requests.session()
-    payload = {'usuario.nick': 'i20183tn001', 'usuario.contrasexa': 'R05'}
+    payload = {'usuario.nick': 'usuario', 'usuario.contrasexa': 'contraseña'}
     r=session.post('https://srvcldutez.utez.edu.mx:8443/SISAVA/iniciarSesion', data=payload)
 
     rr = session.get('https://srvcldutez.utez.edu.mx:8443/SISAVA/consultarHistorial')
